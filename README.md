@@ -1,4 +1,4 @@
-Web Search Engine
+## Web Search Engine
 
 A lightweight yet powerful web search engine combining **BM25** (for keyword relevance), **BERT embeddings** (for semantic similarity), and **PageRank** (for link importance). This hybrid approach delivers smarter, more context-aware search results.
 
@@ -21,7 +21,6 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 `
 
----
 
 ## Goal
 
@@ -31,7 +30,7 @@ Build a simple, flexible, and intelligent search engine that can:
 * Rank documents based on both relevance and importance
 * Be fast and scalable using precomputed indexes
 
----
+
 
 ## To Get Started
 
@@ -78,24 +77,20 @@ This will generate:
 
 ## Features
 
-* 🔍 **BM25 Ranking**: Scores based on keyword overlap and frequency
-* 🧠 **Semantic Matching**: Finds meaningfully related results using BERT
-* 🔗 **PageRank**: Highlights important or well-connected pages
-* ⚡ **Precomputed Indexing**: Faster querying with saved models
-* 🔧 **Robust Preprocessing**: Removes HTML noise and applies lemmatization
-* 💡 **Simple Flask UI**: Minimal interface with title/snippet display
+*  **BM25 Ranking**: Scores based on keyword overlap and frequency
+*  **Semantic Matching**: Finds meaningfully related results using BERT
+*  **PageRank**: Highlights important or well-connected pages
+*  **Precomputed Indexing**: Faster querying with saved models
 
 
----
-
-## 🧠 Tech Stack
+## Tech Stack
 
 * **NLP**: SpaCy, BERT (MiniLM)
 * **IR**: BM25 (Okapi), Sentence Embeddings
 * **Graph Theory**: PageRank Algorithm
-* **Web**: Flask + HTML (Jinja templates)
+* **Web**: Flask + HTML
 
-* Contribution 
-Pull requests and feature suggestions are welcome!
-Feel free to fork, test, and enhance this project.
+## Contribution 
+ * Pull requests and feature suggestions are welcome!
+ * Feel free to fork, test, and enhance this project.
 
